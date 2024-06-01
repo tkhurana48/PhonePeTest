@@ -12,8 +12,8 @@ class NearBuyViewModel:ApiBaseClass{
     var nearBuyModel: NearBuyModel?
     var page = 1
     var perPage = 10
-    var lat = 12.971599
-    var long = 77.594566
+    var lat = 0.0
+    var long = 0.0
     var response:[String:AnyObject]! {
         didSet {
             guard let data = NearBuyModel(JSON: response) else { return }
