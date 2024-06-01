@@ -37,7 +37,7 @@
                                 </constraints>
                             </view>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="hbs-gh-lqR">
-                                <rect key="frame" x="0.0" y="119" width="393" height="639"/>
+                                <rect key="frame" x="0.0" y="119" width="393" height="679"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <connections>
                                     <outlet property="dataSource" destination="XYj-1B-gHr" id="aIN-g9-Iqv"/>
@@ -55,7 +55,7 @@
                                 <color key="textColor" red="0.1765372687" green="0.34173336879999999" blue="0.4625595555" alpha="0.90612712129999995" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Owj-uY-df0">
+                            <slider hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Owj-uY-df0">
                                 <rect key="frame" x="18" y="778" width="357" height="31"/>
                             </slider>
                         </subviews>
@@ -66,9 +66,9 @@
                             <constraint firstItem="hbs-gh-lqR" firstAttribute="leading" secondItem="xbK-DL-efX" secondAttribute="leading" id="Ela-dW-rf7"/>
                             <constraint firstItem="hbs-gh-lqR" firstAttribute="top" secondItem="ZgH-ft-sBV" secondAttribute="bottom" id="Gnt-2E-gI8"/>
                             <constraint firstItem="xbK-DL-efX" firstAttribute="bottom" secondItem="Owj-uY-df0" secondAttribute="bottom" constant="10" id="LwC-fS-Pz6"/>
+                            <constraint firstItem="xbK-DL-efX" firstAttribute="bottom" secondItem="hbs-gh-lqR" secondAttribute="bottom" constant="20" id="SY1-Ug-j9c"/>
                             <constraint firstItem="Owj-uY-df0" firstAttribute="leading" secondItem="xbK-DL-efX" secondAttribute="leading" constant="20" id="czb-CR-OEF"/>
                             <constraint firstItem="XHW-T3-cBE" firstAttribute="centerY" secondItem="IJw-GA-Jmk" secondAttribute="centerY" id="d4a-44-bRK"/>
-                            <constraint firstItem="Owj-uY-df0" firstAttribute="top" secondItem="hbs-gh-lqR" secondAttribute="bottom" constant="20" id="fUs-BA-SkO"/>
                             <constraint firstItem="ZgH-ft-sBV" firstAttribute="top" secondItem="xbK-DL-efX" secondAttribute="top" id="fbT-Vg-dkb"/>
                             <constraint firstItem="xbK-DL-efX" firstAttribute="trailing" secondItem="ZgH-ft-sBV" secondAttribute="trailing" id="i81-3n-tJt"/>
                             <constraint firstItem="XHW-T3-cBE" firstAttribute="centerX" secondItem="IJw-GA-Jmk" secondAttribute="centerX" id="uPv-KD-FJg"/>
