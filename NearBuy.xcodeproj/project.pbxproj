@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8561886267A138BF39C6AEA4 /* Pods_NearBuy.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB6F376C8CDE53B7528E10DA /* Pods_NearBuy.framework */; };
+		DDF18A622C0B3EC6003C0318 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF18A612C0B3EC6003C0318 /* AppDelegate.swift */; };
+		DDF18A692C0B3EC6003C0318 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DDF18A682C0B3EC6003C0318 /* Base */; };
+		DDF18A6B2C0B3EC7003C0318 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDF18A6A2C0B3EC7003C0318 /* Assets.xcassets */; };
+		DDF18A6E2C0B3EC7003C0318 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DDF18A6D2C0B3EC7003C0318 /* Base */; };
+		DDF18A7A2C0B42DA003C0318 /* ApiService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF18A752C0B42DA003C0318 /* ApiService.swift */; };
+		DDF18A7C2C0B42DA003C0318 /* BaseUrl.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF18A772C0B42DA003C0318 /* BaseUrl.swift */; };
+		DDF18A7F2C0B445D003C0318 /* NearBuyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF18A7E2C0B445D003C0318 /* NearBuyModel.swift */; };
+		DDF18A812C0B4477003C0318 /* NearBuyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF18A802C0B4477003C0318 /* NearBuyViewModel.swift */; };
+		DDF18A862C0B478D003C0318 /* CityTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = DDF18A852C0B478D003C0318 /* CityTVC.xib */; };
+		DDF18A872C0B478D003C0318 /* CityTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF18A842C0B478D003C0318 /* CityTVC.swift */; };
+		DDF9ABD92C0B50ED00F355F0 /* NearBuyVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDF9ABD82C0B50ED00F355F0 /* NearBuyVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0808BA34B2C68C3CA620D4C0 /* Pods-NearBuy.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearBuy.debug.xcconfig"; path = "Target Support Files/Pods-NearBuy/Pods-NearBuy.debug.xcconfig"; sourceTree = "<group>"; };
+		A0466F57C3460FFF9163918E /* Pods-NearBuy.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NearBuy.release.xcconfig"; path = "Target Support Files/Pods-NearBuy/Pods-NearBuy.release.xcconfig"; sourceTree = "<group>"; };
+		CB6F376C8CDE53B7528E10DA /* Pods_NearBuy.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NearBuy.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF18A5E2C0B3EC6003C0318 /* NearBuy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NearBuy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDF18A612C0B3EC6003C0318 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DDF18A682C0B3EC6003C0318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DDF18A6A2C0B3EC7003C0318 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDF18A6D2C0B3EC7003C0318 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DDF18A6F2C0B3EC7003C0318 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DDF18A752C0B42DA003C0318 /* ApiService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiService.swift; sourceTree = "<group>"; };
+		DDF18A772C0B42DA003C0318 /* BaseUrl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseUrl.swift; sourceTree = "<group>"; };
+		DDF18A7E2C0B445D003C0318 /* NearBuyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearBuyModel.swift; sourceTree = "<group>"; };
+		DDF18A802C0B4477003C0318 /* NearBuyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearBuyViewModel.swift; sourceTree = "<group>"; };
+		DDF18A842C0B478D003C0318 /* CityTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTVC.swift; sourceTree = "<group>"; };
+		DDF18A852C0B478D003C0318 /* CityTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CityTVC.xib; sourceTree = "<group>"; };
+		DDF9ABD82C0B50ED00F355F0 /* NearBuyVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearBuyVC.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDF18A5B2C0B3EC6003C0318 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8561886267A138BF39C6AEA4 /* Pods_NearBuy.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3AA1E4AC6B011C3F5A90C028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0808BA34B2C68C3CA620D4C0 /* Pods-NearBuy.debug.xcconfig */,
+				A0466F57C3460FFF9163918E /* Pods-NearBuy.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6B0516403D1CC23E96A3D947 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CB6F376C8CDE53B7528E10DA /* Pods_NearBuy.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDF18A552C0B3EC6003C0318 = {
+			isa = PBXGroup;
+			children = (
+				DDF18A602C0B3EC6003C0318 /* NearBuy */,
+				DDF18A5F2C0B3EC6003C0318 /* Products */,
+				3AA1E4AC6B011C3F5A90C028 /* Pods */,
+				6B0516403D1CC23E96A3D947 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		DDF18A5F2C0B3EC6003C0318 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDF18A5E2C0B3EC6003C0318 /* NearBuy.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDF18A602C0B3EC6003C0318 /* NearBuy */ = {
+			isa = PBXGroup;
+			children = (
+				DDF18A612C0B3EC6003C0318 /* AppDelegate.swift */,
+				DDF18A792C0B42DA003C0318 /* NetworkApi */,
+				DDF18A822C0B4481003C0318 /* MVVM */,
+				DDF18A832C0B4762003C0318 /* TVC */,
+				DDF18A672C0B3EC6003C0318 /* Main.storyboard */,
+				DDF18A6A2C0B3EC7003C0318 /* Assets.xcassets */,
+				DDF18A6C2C0B3EC7003C0318 /* LaunchScreen.storyboard */,
+				DDF18A6F2C0B3EC7003C0318 /* Info.plist */,
+			);
+			path = NearBuy;
+			sourceTree = "<group>";
+		};
+		DDF18A792C0B42DA003C0318 /* NetworkApi */ = {
+			isa = PBXGroup;
+			children = (
+				DDF18A752C0B42DA003C0318 /* ApiService.swift */,
+				DDF18A772C0B42DA003C0318 /* BaseUrl.swift */,
+			);
+			path = NetworkApi;
+			sourceTree = "<group>";
+		};
+		DDF18A822C0B4481003C0318 /* MVVM */ = {
+			isa = PBXGroup;
+			children = (
+				DDF18A7E2C0B445D003C0318 /* NearBuyModel.swift */,
+				DDF18A802C0B4477003C0318 /* NearBuyViewModel.swift */,
+				DDF9ABD82C0B50ED00F355F0 /* NearBuyVC.swift */,
+			);
+			path = MVVM;
+			sourceTree = "<group>";
+		};
+		DDF18A832C0B4762003C0318 /* TVC */ = {
+			isa = PBXGroup;
+			children = (
+				DDF18A842C0B478D003C0318 /* CityTVC.swift */,
+				DDF18A852C0B478D003C0318 /* CityTVC.xib */,
+			);
+			path = TVC;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDF18A5D2C0B3EC6003C0318 /* NearBuy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDF18A722C0B3EC7003C0318 /* Build configuration list for PBXNativeTarget "NearBuy" */;
+			buildPhases = (
+				2B995E305EBCA1BFFBC18307 /* [CP] Check Pods Manifest.lock */,
+				DDF18A5A2C0B3EC6003C0318 /* Sources */,
+				DDF18A5B2C0B3EC6003C0318 /* Frameworks */,
+				DDF18A5C2C0B3EC6003C0318 /* Resources */,
+				7293C54F5BC02A112C8F7C11 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NearBuy;
+			productName = NearBuy;
+			productReference = DDF18A5E2C0B3EC6003C0318 /* NearBuy.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDF18A562C0B3EC6003C0318 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					DDF18A5D2C0B3EC6003C0318 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+				};
+			};
+			buildConfigurationList = DDF18A592C0B3EC6003C0318 /* Build configuration list for PBXProject "NearBuy" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDF18A552C0B3EC6003C0318;
+			productRefGroup = DDF18A5F2C0B3EC6003C0318 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDF18A5D2C0B3EC6003C0318 /* NearBuy */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDF18A5C2C0B3EC6003C0318 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF18A6B2C0B3EC7003C0318 /* Assets.xcassets in Resources */,
+				DDF18A6E2C0B3EC7003C0318 /* Base in Resources */,
+				DDF18A862C0B478D003C0318 /* CityTVC.xib in Resources */,
+				DDF18A692C0B3EC6003C0318 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B995E305EBCA1BFFBC18307 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NearBuy-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7293C54F5BC02A112C8F7C11 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearBuy/Pods-NearBuy-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NearBuy/Pods-NearBuy-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NearBuy/Pods-NearBuy-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDF18A5A2C0B3EC6003C0318 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF9ABD92C0B50ED00F355F0 /* NearBuyVC.swift in Sources */,
+				DDF18A622C0B3EC6003C0318 /* AppDelegate.swift in Sources */,
+				DDF18A812C0B4477003C0318 /* NearBuyViewModel.swift in Sources */,
+				DDF18A7F2C0B445D003C0318 /* NearBuyModel.swift in Sources */,
+				DDF18A872C0B478D003C0318 /* CityTVC.swift in Sources */,
+				DDF18A7A2C0B42DA003C0318 /* ApiService.swift in Sources */,
+				DDF18A7C2C0B42DA003C0318 /* BaseUrl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DDF18A672C0B3EC6003C0318 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF18A682C0B3EC6003C0318 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DDF18A6C2C0B3EC7003C0318 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DDF18A6D2C0B3EC7003C0318 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DDF18A702C0B3EC7003C0318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDF18A712C0B3EC7003C0318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DDF18A732C0B3EC7003C0318 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0808BA34B2C68C3CA620D4C0 /* Pods-NearBuy.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443P32J785;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearBuy/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Fetching near by location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Fetching near by location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.self.NearBuyss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DDF18A742C0B3EC7003C0318 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0466F57C3460FFF9163918E /* Pods-NearBuy.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 443P32J785;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NearBuy/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "Fetching near by location";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Fetching near by location";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.self.NearBuyss;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDF18A592C0B3EC6003C0318 /* Build configuration list for PBXProject "NearBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF18A702C0B3EC7003C0318 /* Debug */,
+				DDF18A712C0B3EC7003C0318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDF18A722C0B3EC7003C0318 /* Build configuration list for PBXNativeTarget "NearBuy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDF18A732C0B3EC7003C0318 /* Debug */,
+				DDF18A742C0B3EC7003C0318 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDF18A562C0B3EC6003C0318 /* Project object */;
+}
